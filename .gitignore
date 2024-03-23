@@ -1,0 +1,27 @@
+# Ignore .NET build artifacts
+backend/bin/
+backend/obj/
+
+# Ignore Node.js dependencies
+frontend/node_modules/
+
+# Ignore React build artifacts
+frontend/build/
+
+# Ignore Visual Studio files
+backend/.vs/
+frontend/.vscode/
+
+# Ignore .NET user-specific files
+backend/*.user
+backend/*.vscode
+backend/*.vssettings
+
+# Ignore npm debug log
+frontend/npm-debug.log*
+
+# Ignore .NET Core Tools
+backend/project.lock.json
+backend/project.fragment.lock.json
+backend/artifacts/
+backend/obj/
